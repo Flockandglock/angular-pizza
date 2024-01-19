@@ -7,8 +7,11 @@ import { RouterOutlet } from '@angular/router';
   standalone: true,
   imports: [CommonModule, RouterOutlet],
   template: `
-    <div class="app">
-      
+    <div className="wrapper">
+      <!-- <Header /> -->
+      <div className="content">
+        <!-- <Outlet /> -->
+      </div>
     </div>
   `,
   styleUrl: './app.component.scss',
