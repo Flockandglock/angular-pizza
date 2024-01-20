@@ -1,8 +1,7 @@
-@import "../scss/variables";
-@import "../scss/libs/normalize";
+@import './variables';
+@import './libs/normalize';
 
-@import "../scss/components/all";
-@import "../scss/app.scss";
+@import './components/all';
 
 body {
   background-color: $background;
