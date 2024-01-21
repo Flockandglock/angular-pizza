@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   template: `
-    <div  class="sort">
+    <div class="sort">
       <div class="sort__label">
         <svg
           width="10"

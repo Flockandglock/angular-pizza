@@ -5,12 +5,12 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   template: `
-    <div className="container">
+    <div class="container">
       <img src={pizza.imageUrl} />
       <h2>pizza.title</h2>
       <h4>pizza.price ₽</h4>
       <a to="/">
-        <button className="button button--outline button--add">
+        <button class="button button--outline button--add">
           <span>Назад</span>
         </button>
       </a>

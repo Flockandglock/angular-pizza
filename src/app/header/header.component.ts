@@ -5,11 +5,11 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   template: `
-    <div className="header">
-      <div className="container">
+    <div class="header">
+      <div class="container">
         <a>
-          <div className="header__logo">
-            <img width="38" src={logoSvg} alt="Pizza logo" />
+          <div class="header__logo">
+            <img width="38" src="../../assets/img/pizza-logo.svg" alt="Pizza logo" />
             <div>
               <h1>React Pizza V2</h1>
               <p>самая вкусная пицца во вселенной</p>
@@ -17,11 +17,11 @@ import { Component } from '@angular/core';
           </div>
         </a>
         <!-- {location.pathname !== '/cart' && <Search />} -->
-        <div className="header__cart">
+        <div class="header__cart">
           
-            <a  className="button button--cart">
+            <a  class="button button--cart">
               <span>totalPrice ₽</span>
-              <div className="button__delimiter"></div>
+              <div class="button__delimiter"></div>
               <svg
                 width="18"
                 height="18"
