@@ -16,7 +16,7 @@ import { HomeComponent } from './home/home.component';
       </div>
     </div>
   `,
-  styleUrl: './app.component.scss',
+  styleUrl: './app.component.scss', 
 })
 export class AppComponent {
   title = 'angular-pizza';
